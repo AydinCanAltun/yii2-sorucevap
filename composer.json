@@ -12,7 +12,8 @@
     ],
     "require": {
       "php": ">=7.0",
-      "yiisoft/yii2": "~2.0.13"
+      "yiisoft/yii2": "~2.0.13",
+      "aybarsyildiz/yii2-profil" : "dev-develop"
     },
     "require-dev": {
       "phpunit/phpunit": "8.*.*"
@@ -34,3 +35,4 @@
       }
     ]
   }
+  
