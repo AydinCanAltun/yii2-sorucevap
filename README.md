@@ -34,12 +34,12 @@ komutunu çalıştırmak gerekir. Artık modülümüz projenin içerisine tamame
 
    
 
-     // Eğer ki main.php dosyamızın içindeyken 'modules' başlığı altında bi ayar satırı bulunmaktaysa
-        // aşağıda modules'in içinde bulunan kodları taşımamız yeterli olacaktır
-    	'modules' => [
-    		'sorucevap' => 'AydinCanAltun\yii2-sorucevap\Module',
-    		'profil' => 'aybarsyildiz\yii2-profil\Module'
-    	],
+    // Eğer ki main.php dosyamızın içindeyken 'modules' başlığı altında bi ayar satırı bulunmaktaysa
+    // aşağıda modules'in içinde bulunan kodları taşımamız yeterli olacaktır
+    'modules' => [
+    	'sorucevap' => 'AydinCanAltun\sorucevap\Module',
+    	'profil' => 'aybarsyildiz\profil\Module'
+    ],
 
 Bu işlemden sonra 'aydincanaltun/yii2-sorucevap' ve 'aybarsyildiz/yii2-profil' modülleri çalışır hale gelmiştir.
 
